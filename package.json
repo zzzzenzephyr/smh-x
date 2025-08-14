@@ -8,7 +8,9 @@
   },
   "scripts": {
     "preinstall": "npx only-allow pnpm",
+    "browser": "explorer http://localhost:3000",
     "dev": "next dev --turbopack",
+    "x" : "pnpm browser | pnpm dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"

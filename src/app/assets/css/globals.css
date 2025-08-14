@@ -1,6 +1,4 @@
-/** @noinspection */
-
-@import "tailwindcss";
+@import "../../../../node_modules/tailwindcss";
 
 :root {
   --background: #ffffff;
